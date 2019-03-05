@@ -1,0 +1,37 @@
+PODS:
+  - Alamofire (4.8.1)
+  - Alamofire-SwiftyJSON (3.0.0):
+    - Alamofire (~> 4.5)
+    - SwiftyJSON (~> 4.0.0)
+  - OneSignal (2.9.5)
+  - SideMenu (5.0.3)
+  - SwiftyJSON (4.0.0)
+  - SwiftyStoreKit (0.14.2)
+
+DEPENDENCIES:
+  - Alamofire (~> 4.7)
+  - Alamofire-SwiftyJSON
+  - OneSignal (< 3.0, >= 2.6.2)
+  - SideMenu
+  - SwiftyStoreKit
+
+SPEC REPOS:
+  https://github.com/cocoapods/specs.git:
+    - Alamofire
+    - Alamofire-SwiftyJSON
+    - OneSignal
+    - SideMenu
+    - SwiftyJSON
+    - SwiftyStoreKit
+
+SPEC CHECKSUMS:
+  Alamofire: 16ce2c353fb72865124ddae8a57c5942388f4f11
+  Alamofire-SwiftyJSON: 2b3649d57dc7bb2880fb8b86f8bb969397666916
+  OneSignal: ccdeb961882f8668305e5b694e2cb7cb325fc907
+  SideMenu: 1dcaabce84538c53325c287f7fe62999379a641c
+  SwiftyJSON: 070dabdcb1beb81b247c65ffa3a79dbbfb3b48aa
+  SwiftyStoreKit: cc399645796b094022fb650c148a0aed25995873
+
+PODFILE CHECKSUM: 154ccf95838b3e83f8782f9962a9b83737c0e667
+
+COCOAPODS: 1.6.0

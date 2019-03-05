@@ -1,0 +1,6 @@
+framework module Pods_Fal_Kalesi {
+  umbrella header "Pods-Fal Kalesi-umbrella.h"
+
+  export *
+  module * { export * }
+}

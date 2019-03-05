@@ -1,0 +1,523 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4292C69920CACB7900EA7019 /* falTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292C69820CACB7900EA7019 /* falTableViewCell.swift */; };
+		4292C69B20CAD02200EA7019 /* tblViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292C69A20CAD02200EA7019 /* tblViewController.swift */; };
+		4292C69D20CAD56100EA7019 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292C69C20CAD56100EA7019 /* CollectionViewCell.swift */; };
+		4292C69F20CADCCD00EA7019 /* webViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4292C69E20CADCCD00EA7019 /* webViewController.swift */; };
+		42936A7020CA88F900641963 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42936A6F20CA88F900641963 /* AppDelegate.swift */; };
+		42936A7220CA88F900641963 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42936A7120CA88F900641963 /* ViewController.swift */; };
+		42936A7520CA88F900641963 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42936A7320CA88F900641963 /* Main.storyboard */; };
+		42936A7720CA88FB00641963 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 42936A7620CA88FB00641963 /* Assets.xcassets */; };
+		42936A7A20CA88FB00641963 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 42936A7820CA88FB00641963 /* LaunchScreen.storyboard */; };
+		42C82B0622107CE400EA37D1 /* girisYapVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C82B0522107CE400EA37D1 /* girisYapVC.swift */; };
+		42C82B0822107CF700EA37D1 /* uyeOlVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C82B0722107CF700EA37D1 /* uyeOlVC.swift */; };
+		42C82B0A22107F2E00EA37D1 /* mainNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C82B0922107F2E00EA37D1 /* mainNavVC.swift */; };
+		42C82B0D2210D81E00EA37D1 /* krediAlNavVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C82B0C2210D81E00EA37D1 /* krediAlNavVC.swift */; };
+		42C82B0F2210D83700EA37D1 /* krediVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 42C82B0E2210D83700EA37D1 /* krediVC.swift */; };
+		42D3BB5922134A4000FDB263 /* StoreKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 42D3BB5822134A4000FDB263 /* StoreKit.framework */; };
+		B6A36DFBF1954A5AF4136681 /* Pods_Fal_Kalesi.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5EABEE0272EDCEECB1D9D2FF /* Pods_Fal_Kalesi.framework */; };
+		DDFFA048222DD4F000FBAA72 /* IAPProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFA047222DD4F000FBAA72 /* IAPProduct.swift */; };
+		DDFFA04A222DD59A00FBAA72 /* IAPService.swift in Sources */ = {isa = PBXBuildFile; fileRef = DDFFA049222DD59A00FBAA72 /* IAPService.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		0C8508EF2EB1DD57AF7BE1DE /* Pods-Fal Kalesi.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fal Kalesi.release.xcconfig"; path = "Pods/Target Support Files/Pods-Fal Kalesi/Pods-Fal Kalesi.release.xcconfig"; sourceTree = "<group>"; };
+		296BAFD2E54604369E49F711 /* Pods-Fal Kalesi.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Fal Kalesi.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Fal Kalesi/Pods-Fal Kalesi.debug.xcconfig"; sourceTree = "<group>"; };
+		4292C69820CACB7900EA7019 /* falTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = falTableViewCell.swift; sourceTree = "<group>"; };
+		4292C69A20CAD02200EA7019 /* tblViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = tblViewController.swift; sourceTree = "<group>"; };
+		4292C69C20CAD56100EA7019 /* CollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		4292C69E20CADCCD00EA7019 /* webViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = webViewController.swift; sourceTree = "<group>"; };
+		42936A6C20CA88F900641963 /* Fal Kalesi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Fal Kalesi.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		42936A6F20CA88F900641963 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		42936A7120CA88F900641963 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		42936A7420CA88F900641963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		42936A7620CA88FB00641963 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		42936A7920CA88FB00641963 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		42936A7B20CA88FB00641963 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		42C82B0522107CE400EA37D1 /* girisYapVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = girisYapVC.swift; sourceTree = "<group>"; };
+		42C82B0722107CF700EA37D1 /* uyeOlVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = uyeOlVC.swift; sourceTree = "<group>"; };
+		42C82B0922107F2E00EA37D1 /* mainNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = mainNavVC.swift; sourceTree = "<group>"; };
+		42C82B0C2210D81E00EA37D1 /* krediAlNavVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = krediAlNavVC.swift; sourceTree = "<group>"; };
+		42C82B0E2210D83700EA37D1 /* krediVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = krediVC.swift; sourceTree = "<group>"; };
+		42D3BB5822134A4000FDB263 /* StoreKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = StoreKit.framework; path = System/Library/Frameworks/StoreKit.framework; sourceTree = SDKROOT; };
+		42D674A920CC35840037C78A /* TarotName.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = TarotName.entitlements; sourceTree = "<group>"; };
+		5EABEE0272EDCEECB1D9D2FF /* Pods_Fal_Kalesi.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Fal_Kalesi.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		DDFFA047222DD4F000FBAA72 /* IAPProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPProduct.swift; sourceTree = "<group>"; };
+		DDFFA049222DD59A00FBAA72 /* IAPService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IAPService.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		42936A6920CA88F900641963 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B6A36DFBF1954A5AF4136681 /* Pods_Fal_Kalesi.framework in Frameworks */,
+				42D3BB5922134A4000FDB263 /* StoreKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		11D4AFEE1C13710D3998F54B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				296BAFD2E54604369E49F711 /* Pods-Fal Kalesi.debug.xcconfig */,
+				0C8508EF2EB1DD57AF7BE1DE /* Pods-Fal Kalesi.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		42936A6320CA88F900641963 = {
+			isa = PBXGroup;
+			children = (
+				42936A6E20CA88F900641963 /* TarotName */,
+				42936A6D20CA88F900641963 /* Products */,
+				11D4AFEE1C13710D3998F54B /* Pods */,
+				54799B9F350528B46AA760A7 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		42936A6D20CA88F900641963 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				42936A6C20CA88F900641963 /* Fal Kalesi.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		42936A6E20CA88F900641963 /* TarotName */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFA045222DBFDE00FBAA72 /* Utilities */,
+				DDFFA043222DBFA500FBAA72 /* Model */,
+				DDFFA044222DBFB300FBAA72 /* View */,
+				42CDC3712211B0950095BEE2 /* Controller */,
+				42D674A920CC35840037C78A /* TarotName.entitlements */,
+				42936A6F20CA88F900641963 /* AppDelegate.swift */,
+				42936A7320CA88F900641963 /* Main.storyboard */,
+				42936A7620CA88FB00641963 /* Assets.xcassets */,
+				42936A7820CA88FB00641963 /* LaunchScreen.storyboard */,
+				42936A7B20CA88FB00641963 /* Info.plist */,
+			);
+			path = TarotName;
+			sourceTree = "<group>";
+		};
+		42CDC3712211B0950095BEE2 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFA046222DC12000FBAA72 /* Authentication */,
+				42936A7120CA88F900641963 /* ViewController.swift */,
+				42C82B0922107F2E00EA37D1 /* mainNavVC.swift */,
+				42C82B0C2210D81E00EA37D1 /* krediAlNavVC.swift */,
+				42C82B0E2210D83700EA37D1 /* krediVC.swift */,
+				4292C69A20CAD02200EA7019 /* tblViewController.swift */,
+				4292C69E20CADCCD00EA7019 /* webViewController.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		54799B9F350528B46AA760A7 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				42D3BB5822134A4000FDB263 /* StoreKit.framework */,
+				5EABEE0272EDCEECB1D9D2FF /* Pods_Fal_Kalesi.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DDFFA043222DBFA500FBAA72 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFA047222DD4F000FBAA72 /* IAPProduct.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		DDFFA044222DBFB300FBAA72 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				4292C69820CACB7900EA7019 /* falTableViewCell.swift */,
+				4292C69C20CAD56100EA7019 /* CollectionViewCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		DDFFA045222DBFDE00FBAA72 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				DDFFA049222DD59A00FBAA72 /* IAPService.swift */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		DDFFA046222DC12000FBAA72 /* Authentication */ = {
+			isa = PBXGroup;
+			children = (
+				42C82B0522107CE400EA37D1 /* girisYapVC.swift */,
+				42C82B0722107CF700EA37D1 /* uyeOlVC.swift */,
+			);
+			name = Authentication;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		42936A6B20CA88F900641963 /* Fal Kalesi */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 42936A7E20CA88FB00641963 /* Build configuration list for PBXNativeTarget "Fal Kalesi" */;
+			buildPhases = (
+				351704B2588BCDBE2723FE58 /* [CP] Check Pods Manifest.lock */,
+				42936A6820CA88F900641963 /* Sources */,
+				42936A6920CA88F900641963 /* Frameworks */,
+				42936A6A20CA88F900641963 /* Resources */,
+				8A44D94EA135345199918250 /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Fal Kalesi";
+			productName = TarotName;
+			productReference = 42936A6C20CA88F900641963 /* Fal Kalesi.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		42936A6420CA88F900641963 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Study;
+				TargetAttributes = {
+					42936A6B20CA88F900641963 = {
+						CreatedOnToolsVersion = 9.3.1;
+						SystemCapabilities = {
+							com.apple.BackgroundModes = {
+								enabled = 1;
+							};
+							com.apple.InAppPurchase = {
+								enabled = 1;
+							};
+							com.apple.Push = {
+								enabled = 1;
+							};
+						};
+					};
+				};
+			};
+			buildConfigurationList = 42936A6720CA88F900641963 /* Build configuration list for PBXProject "Fal Kalesi" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 42936A6320CA88F900641963;
+			productRefGroup = 42936A6D20CA88F900641963 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				42936A6B20CA88F900641963 /* Fal Kalesi */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		42936A6A20CA88F900641963 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42936A7A20CA88FB00641963 /* LaunchScreen.storyboard in Resources */,
+				42936A7720CA88FB00641963 /* Assets.xcassets in Resources */,
+				42936A7520CA88F900641963 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		351704B2588BCDBE2723FE58 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Fal Kalesi-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A44D94EA135345199918250 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Fal Kalesi/Pods-Fal Kalesi-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Alamofire-SwiftyJSON/Alamofire_SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SideMenu/SideMenu.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyStoreKit/SwiftyStoreKit.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire_SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SideMenu.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyStoreKit.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Fal Kalesi/Pods-Fal Kalesi-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		42936A6820CA88F900641963 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				42C82B0A22107F2E00EA37D1 /* mainNavVC.swift in Sources */,
+				4292C69D20CAD56100EA7019 /* CollectionViewCell.swift in Sources */,
+				42C82B0F2210D83700EA37D1 /* krediVC.swift in Sources */,
+				42936A7220CA88F900641963 /* ViewController.swift in Sources */,
+				42C82B0622107CE400EA37D1 /* girisYapVC.swift in Sources */,
+				42936A7020CA88F900641963 /* AppDelegate.swift in Sources */,
+				DDFFA048222DD4F000FBAA72 /* IAPProduct.swift in Sources */,
+				42C82B0D2210D81E00EA37D1 /* krediAlNavVC.swift in Sources */,
+				4292C69920CACB7900EA7019 /* falTableViewCell.swift in Sources */,
+				DDFFA04A222DD59A00FBAA72 /* IAPService.swift in Sources */,
+				4292C69B20CAD02200EA7019 /* tblViewController.swift in Sources */,
+				4292C69F20CADCCD00EA7019 /* webViewController.swift in Sources */,
+				42C82B0822107CF700EA37D1 /* uyeOlVC.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		42936A7320CA88F900641963 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42936A7420CA88F900641963 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		42936A7820CA88FB00641963 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				42936A7920CA88FB00641963 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		42936A7C20CA88FB00641963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		42936A7D20CA88FB00641963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		42936A7F20CA88FB00641963 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 296BAFD2E54604369E49F711 /* Pods-Fal Kalesi.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TarotName/TarotName.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNB7BY48WV;
+				INFOPLIST_FILE = TarotName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.FalKalesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		42936A8020CA88FB00641963 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0C8508EF2EB1DD57AF7BE1DE /* Pods-Fal Kalesi.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = TarotName/TarotName.entitlements;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = HNB7BY48WV;
+				INFOPLIST_FILE = TarotName/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.study.FalKalesi;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		42936A6720CA88F900641963 /* Build configuration list for PBXProject "Fal Kalesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42936A7C20CA88FB00641963 /* Debug */,
+				42936A7D20CA88FB00641963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		42936A7E20CA88FB00641963 /* Build configuration list for PBXNativeTarget "Fal Kalesi" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				42936A7F20CA88FB00641963 /* Debug */,
+				42936A8020CA88FB00641963 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 42936A6420CA88F900641963 /* Project object */;
+}
